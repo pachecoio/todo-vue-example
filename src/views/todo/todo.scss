@@ -1,0 +1,56 @@
+.todo {
+
+    &__list {
+
+    }
+
+    &__item {
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__content {
+        min-width: 20rem;
+        padding: 1rem 2rem;
+    }
+
+    .content {
+
+        &__checked {
+            text-decoration: line-through;
+            font-style: italic;
+            color: grey;
+        }
+
+    }
+
+    &__actions {
+
+    }
+
+    &__button {
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        &--delete {
+
+        }
+
+        &--check {
+
+        }
+
+    }
+
+    .add__todo {
+        border: 1px solid rgb(45, 126, 202);
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+
+}
